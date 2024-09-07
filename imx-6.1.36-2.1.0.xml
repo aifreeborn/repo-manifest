@@ -10,7 +10,7 @@
   <remote name="qt"          fetch="https://code.qt.io/yocto"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
-  <remote name="imx6ull-meta-imx"     fetch="https://github.com/aifreeborn"/>
+  <remote name="aifreeborn"     fetch="https://github.com/aifreeborn"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0e043288fd0b17fbf31cf00ae33045107a991144" upstream="master"/>
@@ -31,10 +31,12 @@
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="1406d0a85525a71fe5d7892d7f915404290a78ad" upstream="6.5.0"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="a0c1f045016fd54406888f3750c1355188ffed63" upstream="master"/>
 
-  <project name="imx6ull-meta-imx" remote="imx6ull-meta-imx" path="sources/meta-imx" revision="e2c3e9acf2882e8bcf1c689c095fa771afd87004" upstream="main" >
+  <project name="imx6ull-meta-imx" remote="aifreeborn" path="sources/meta-imx" revision="e2c3e9acf2882e8bcf1c689c095fa771afd87004" upstream="main" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
+
+  <project name="meta-100ask" path="sources/meta-100ask" remote="aifreeborn" revision="d9a8f59568a745051b8ffd050f3b457d074dd81a" upstream="main"/>
 
 </manifest>
