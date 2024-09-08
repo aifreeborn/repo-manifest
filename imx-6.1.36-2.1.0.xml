@@ -37,7 +37,7 @@
   </project>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
 
-  <project name="meta-100ask" path="sources/meta-100ask" remote="aifreeborn" revision="f79d0e8b7fe97aa7faad2f408bfc3dd0aabdd79c" upstream="main" >
+  <project name="meta-100ask" path="sources/meta-100ask" remote="aifreeborn" revision="4f4e4f88316ae702eab840c6a0e1e42fc41b95de" upstream="main" >
      <linkfile src="tools/aibuild.sh" dest="aibuild.sh"/>
   </project>
 
